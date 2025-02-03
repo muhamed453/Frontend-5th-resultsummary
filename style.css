@@ -28,7 +28,7 @@ html,body{
     margin-left: 1rem;
 }
 #circle1{
-    width: 10rem;
+    width: 9rem;
     text-align: center;
     border-radius: 50%;
 
@@ -49,7 +49,7 @@ html,body{
     font-size: 2rem;
     font-weight: 700;
 }
-#hundred{
+.hundred{
     color: hsl(224,30%,50%);
 }
 .sub-division{
@@ -144,6 +144,9 @@ html,body{
     main{
       display: grid;
       place-items: center;
+    }
+    #circle1{
+        width: 10rem;
     }
    .content::after {
       content: "";
