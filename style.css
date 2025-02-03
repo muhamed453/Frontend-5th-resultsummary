@@ -140,7 +140,7 @@ html,body{
     background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
-@media(min-width:400px){
+@media(min-width:500px){
     main{
       display: grid;
       place-items: center;
