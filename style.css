@@ -1,0 +1,171 @@
+html,body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background:  hsl(224, 30%, 95%)  ;
+}
+    * {
+      box-sizing: border-box;
+    }
+#main{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.side-nav{
+    height: auto;
+     background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+     place-items: center;
+     color: white;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+}
+.content{
+    background: hsl(0,0%,100%);
+}
+#rep{
+    width: 18rem;
+    margin-left: 1rem;
+}
+#circle1{
+    width: 10rem;
+    text-align: center;
+    border-radius: 50%;
+
+}
+#circle2{
+    background:linear-gradient(to bottom, hsla(256, 72%, 46%,1), hsla(241, 72%, 46%,0));
+     padding: 1rem;
+     border-radius: 50%;
+}
+#h1{
+    font-size: 6rem;
+    font-weight: 800;
+    padding: 0;
+    display: inline;
+}
+#h3{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#hundred{
+    color: hsl(224,30%,50%);
+}
+.sub-division{
+    padding-top: 0.7rem;
+}
+.image{
+    display: absolute ;
+    height: 1rem;
+}
+.ple{
+    font-weight: 300;
+    font-size: 1.3rem;
+    display:inline;
+}
+.pno{
+    color: black;
+    font-weight: 300;
+    font-size: 1.3rem;
+    display: inline;
+}
+.spn{
+    display: block;
+    width: 18rem;
+    margin: 1rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+.attribution{
+    margin-top: 5rem;
+}
+#p1{
+    font-weight: 750;
+    font-size: 2rem;
+}
+#p3{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+#p2{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+#p4{
+    margin-right: 6rem;
+    color: hsl(0,100%,67%);
+}
+#p6{
+    margin-right: 6.25rem ;
+    color: hsl(39,100%,56%);
+}
+#p8{
+    margin-right: 7.45rem ;
+    color: hsl(166,100%,37%);
+}
+#p10{
+    margin-right: 7.5rem ;
+    color: hsl(234,85%,45%);
+}
+#spn1{
+    background: hsl(0,100%,95%);
+    
+}
+#spn2{
+    background: hsl(49,100%,95%);
+    
+}
+#spn3{
+    background: hsl(166,100%,95%);
+    
+}
+#spn4{
+    background: hsl(234,85%,95%);
+    
+}
+#btn{
+    width: 18rem;
+    height: 3rem;
+    border-radius: 2rem;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background: hsl(224,30%,27%);
+    border: none;
+}
+#btn:hover{
+    background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media(min-width:400px){
+    main{
+      display: grid;
+      place-items: center;
+    }
+   .content::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .content > div {
+      float: left;
+      color: white;
+      height: 500px;
+      padding: 10px;
+    }
+    .content{
+        margin-top: 6rem;
+        width: 46rem;
+        background: hsl(0,0%,100%);
+        border-radius: 20px;
+    }
+    .side-nav {
+     place-items: center;
+     width: 50%;
+     border-radius: 20px;
+     background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+}
